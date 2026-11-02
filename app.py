@@ -1,7 +1,7 @@
 """
 موقع إسلامي متكامل — القرآن الكريم والسنة النبوية
-مطور بواسطة: @m2_byte
-GitHub: @m2-byte
+مطور بواسطة: LPOLVO
+GitHub: @LPOLVO
 """
 
 from flask import Flask, render_template, request, jsonify, make_response, send_from_directory, g
@@ -34,12 +34,13 @@ except ImportError:
 
 class Config:
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'dev-key-please-change-in-prod-12345'
-    DEBUG = True
+    DEBUG = False
     CACHE_TYPE = 'simple'
     JSON_AS_ASCII = False
     # Social
-    INSTAGRAM = '@m2_byte'
-    GITHUB = '@m2-byte'
+    INSTAGRAM = '@4me.h4mz4_'
+    GITHUB = '@LPOLVO'
+    YOUTUBE = '@LPOLVOXD1'
 
 app = Flask(__name__)
 app.config.from_object(Config)
@@ -427,7 +428,7 @@ def get_at_index_filter(l, i):
 @app.route('/')
 def home():
     return render_template('index.html',
-        title="القرآن الكريم والسنة النبوية | منصة إسلامية متكاملة",
+        title="القرآن الكريم والسنة النبوية | نور القرآن",
         description="موقع إسلامي شامل ومتميز بجودة VIP يحتوي على القرآن الكريم كاملاً، الحديث الشريف، مواقيت الصلاة، الأذكار، وتفاسير القرآن الكريم."
     )
 
