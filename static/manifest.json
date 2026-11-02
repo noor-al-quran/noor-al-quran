@@ -1,6 +1,6 @@
 {
-    "name": "Islamic Website",
-    "short_name": "إسلامي",
+    "name": "نور القرآن",
+    "short_name": "نور القرآن",
     "description": "موقع إسلامي شامل — القرآن الكريم والأحاديث النبوية ومواقيت الصلاة",
     "start_url": "/",
     "display": "standalone",
