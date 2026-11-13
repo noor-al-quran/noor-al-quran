@@ -3,7 +3,7 @@ import { ChevronDown, Download } from 'lucide-react'
 import { Phone, Stars, Crescent, Lantern, Skyline } from './ui'
 import { img } from '../data'
 
-const APK_URL = 'https://github.com/noor-al-quran/nooralquran/releases/latest/download/NoorAlQuran.apk'
+const APK_URL = 'https://github.com/noor-al-quran/noor-al-quran/releases/latest/download/NoorAlQuran.apk'
 
 export default function Hero() {
   return (
@@ -30,6 +30,3 @@ export default function Hero() {
         </motion.div>
       </div>
       <Skyline className="absolute inset-x-0 bottom-0 h-12 w-full text-emerald-deep/70" />
-    </section>
-  )
-}
